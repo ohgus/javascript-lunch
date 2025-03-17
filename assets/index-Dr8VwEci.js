@@ -231,7 +231,7 @@ const TextInput = (name, isRequired, helpText) => {
   return formItem;
 };
 const getStarIconSrc = (isFavorite) => {
-  return isFavorite ? "public/favorite-icon-filled.png" : "public/favorite-icon-lined.png";
+  return isFavorite ? "/favorite-icon-filled.png" : "favorite-icon-lined.png";
 };
 const StarIcon = (isFavorite) => {
   const iconSrc = getStarIconSrc(isFavorite);
